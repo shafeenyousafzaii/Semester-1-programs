@@ -8,6 +8,8 @@ int main()
        scanf("\n%c",&a[i]);          
        printf("%c\n",a[i]);
     }
+    
+    
     return 0;
 }
 /*123  456
