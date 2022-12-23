@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.listitems
+{
+     display: inline;
+     padding-right: 10px;
+     margin-right: 10px;
+     top: 0.2vh;
+    position: relative  ;
+    }
+.navbar
+{
+  padding-top: 10px;
+  padding-left: 13.5cm;
+  background-color: black;
+  color: white;
+  /* justify-content: center; */
+  height: 10vh;
+  position: relative;
+  /* display: flex;
+  justify-content: center; */
+
+}
+.body{
+  padding: 1%;
+  margin: 1   %;
+}

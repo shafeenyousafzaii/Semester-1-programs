@@ -21,7 +21,7 @@ int perfectnumber()
 
 int amstrong()
 {
-    int num, originalNum, remainder, result = 0;
+    int num, originalNum, remainder, result = 0,count=0;
     printf("Enter a three-digit integer to find if it is an armstrong number or not : \n ");
     scanf("%d", &num);
     originalNum = num;
@@ -35,6 +35,7 @@ int amstrong()
         
        // removing last digit from the orignal number
        originalNum /= 10;
+       count++;
     }
     while (originalNum!=0)
     
@@ -42,11 +43,11 @@ int amstrong()
 
     ;if (result == num)
     {
-        printf("%d is an Armstrong number.", num);
+        printf("%d is an Armstrong number. and it was a %d digit number", num,count);
     }
     else
     {
-        printf("%d is not an Armstrong number : ", num);
+        printf("%d is not an Armstrong number : , and it was a %d digit number", num,count);
     }
     return num;
 }
